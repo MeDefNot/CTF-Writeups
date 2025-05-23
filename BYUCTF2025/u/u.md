@@ -17,7 +17,9 @@ We know the flag format is `byuctf{...}`. The ASCII value of `b` is `98` and the
   
 `131-9-137-139-11-145-17`
   
-We can see 2 and 6 are alternatively added to form two series of numbers. One starts from 131 and the other from 9. Following this approach, we could find all the quotients (a number that belongs to any one of the series and is also perfectly divides the list of integers.). So, having the quotient and dividend, we could find the divisor which is our flag.  
+We can see 2 and 6 are alternatively added to form two series of numbers. One starts from 131 and the other from 9. Following this approach, we could find all the quotients (a number that belongs to any one of the series and is also perfectly divides the list of integers.). So, having the quotient and dividend, we could find the divisor which is our flag. 
+
+[I found no pattern in which the two series appeared. So I just checked the divisibility. For example, the letter after `{` could be `17199/147` or `17199/19` . But, since `17199/19` is not a whole number, it's simpy `17199/147` ]
 ```
   12838/131 = b
   1089/9 = y
